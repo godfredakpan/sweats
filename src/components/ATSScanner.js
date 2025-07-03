@@ -65,8 +65,8 @@ export default function ATSScanner() {
       <div className="max-w-6xl mx-auto">
         <div className="bg-white backdrop-blur-lg rounded-2xl shadow-xl overflow-hidden">
           {/* Header */}
-          <div className="bg-black p-6 text-white">
-            <h1 className="text-3xl font-bold">📄 ATS Resume Optimizer</h1>
+          <div className="bg-black p-6 text-white flex flex-col items-center text-center md:items-start md:text-left">
+            <h3 className="text-2xl font-bold">ATS Resume Optimizer</h3>
             <p className="opacity-90">Get your software engineering resume past automated tracking systems</p>
           </div>
 
