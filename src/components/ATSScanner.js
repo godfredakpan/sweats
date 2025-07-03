@@ -61,7 +61,7 @@ export default function ATSScanner() {
                     'from-red-400 to-red-600';
 
   return (
-    <div className="min-h-screen bg-gray-400 p-4 md:p-8">
+    <div className="min-h-screen bg-gray-400 p-4 md:p-8 pt-8">
       <div className="max-w-6xl mx-auto">
         <div className="bg-white backdrop-blur-lg rounded-2xl shadow-xl overflow-hidden">
           {/* Header */}
@@ -284,6 +284,9 @@ export default function ATSScanner() {
           </div>
         </div>
       </div>
+    <footer className="mt-8 text-center text-gray-100 text-xs pb-4">
+      © {new Date().getFullYear()} Godfred ATS Resume Optimizer &mdash; Built with ❤️ for software job seekers.
+    </footer>
     </div>
   );
 }
